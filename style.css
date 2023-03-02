@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("img/background/background-village.png");
+    width: 1260px;
+}
+header{
+    background-color: aliceblue;
+    background-image: url("img/header/3-bandes.png");
+    height: 200px;
+
+    background-size:1260px ;
+}
+.logo{
+    height: 100%;
+    width: 330px;
+    float: left;
+}
+.nav1{
+    float: right;
+height: 40px;
+padding: 10px;
+}
+.n1{
+    padding: 15px 30px;
+    font-size: 30px;
+}
+.nav2{
+
+    float: right;
+height: 40px;
+padding: 10px;
+
+
+}
+.n2{
+    padding: 5px 60px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav3{
+    float: right;
+height: 30px;
+padding: 10px;
+
+}
+.n3{
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+main {
+
+    width: 1220px;
+    background-image: url("img/background/bande-milieu.png");
+    padding: 20px;
+ 
+    background-size: 100%;
+
+}
+.P1{
+    width: 70%;
+    margin: 10px;
+    height: 800px;
+}
+.P2{
+    width: 25%;
+    margin: 10px;
+    height: 800px;
+    
+}
+.P3{
+    width: 100%;
+}
+.L2{
+    width: 100%;
+    padding: 20px;
+    
+}
+.C1,.C2,.C3,.C4,.C5,.C6,.C7,.C8 {
+    width: 24%;
+    height: 50%;
+
+}
+.C8{
+    height: 180px;
+}
+
+
+.L3 {
+
+    height: 350px;
+    width: 100%;
+
+
+}
+
+.nos-meilleures-ventes {
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+
+
+.voir-univers1 {
+    height: 304px;
+    width: 180px;
+}
+
+.voir-univers2 {
+    height: 304px;
+    width: 180px;
+}
+
+.voir-univers3 {
+    height: 304px;
+    width: 180px;
+}
+
+.nos-partenaires {
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+}
+
+.partenaires-4-logos {
+    width: 505px;
+    height: 304px;
+}
+
+footer {
+margin-left:20px;
+}
+
+.footer-SIMPLE {
+    height: 788px;
+    width: 1220px;
+
+}
+/* ---------------------PARTIE-HOVER---------------------- */
+.Hover2:hover{
+
+position: absolute;
+
+
+}
+.C1:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-guitare.png");
+}
+.C2:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-batterie.png");
+}
+.C3:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-piano.png");
+}
+.C4:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-micro.png");
+}
+.C5:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-sono.png");
+}
+.C6:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-cases.png");
+}
+.C7:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-access.png");
+}
+.C8:hover{
+    content: url("img/body/CATEGORIES-ROLL-OVER-saxo.png");
+}
+
+
+.voir-univers1:hover{  
+  content: url("img/body/TOP-VENTES-ROLL-OVER-guitare.png");
+
+}
+.voir-univers2:hover{  
+  content: url("img/body/TOP-VENTES-ROLL-OVER-saxo.png");
+
+}
+.voir-univers3:hover{  
+  content: url("img/body/TOP-VENTES-ROLL-OVER-piano.png");
+
+}
